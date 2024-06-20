@@ -21,6 +21,9 @@ function App() {
       setcomment("");
       localStorage.setItem("todos", JSON.stringify([...todos, newTodo]));
     }
+    else{
+        alert("Please Fill Both The Boxes")
+    }
   };
 
   return (
